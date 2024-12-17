@@ -1,10 +1,10 @@
 dataset: "kss"
 
 path:
-  corpus_path: "./data/tts/kss"
-  lexicon_path: "lexicon/korean-lexicon.txt"
-  raw_path: "./data/tts/kss/wavs"
-  preprocessed_path: "./preprocessed_data/kss"
+  corpus_path: "C:\\Users\\Admin\\Desktop\\EfficientSpeech\\data\\kss"
+  lexicon_path: "C:\\Users\\Admin\\Desktop\\EfficientSpeech\\lexicon"
+  raw_path: "C:\\Users\\Admin\\Desktop\\EfficientSpeech\\data\\kss\\wavs"
+  preprocessed_path: "C:\\Users\\Admin\\Desktop\\EfficientSpeech\\preprocessed_data\\kss"
 
 preprocessing:
   val_size: 512

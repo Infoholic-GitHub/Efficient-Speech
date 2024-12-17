@@ -39,5 +39,6 @@ def prepare_align(config):
                 with open(
                     os.path.join(out_dir, speaker, "{}.lab".format(base_name)),
                     "w",
+                    encoding="utf-8",  # Ensure correct encoding
                 ) as f1:
                     f1.write(text)
